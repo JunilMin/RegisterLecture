@@ -11,4 +11,6 @@ public class LectureModel {
   Date currentDate = new Date();
 
 
+  public LectureModel(String 특강_제목, long time) {
+  }
 }
