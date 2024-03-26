@@ -1,5 +1,9 @@
 package com.example.repository;
 
-public interface LectureRepository {
+import com.example.model.LectureModel;
 
+public interface LectureRepository {
+  void save(LectureModel lectureModel);
+  int countRegisteredParticipants();
+  boolean isAlreadyRegistered(String userId);
 }
