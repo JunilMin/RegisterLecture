@@ -19,7 +19,7 @@ public class LectureService {
   public static boolean checkLectureStatus(String userId) {
   }
 
-  public void applyForSeminar(String userId) {
+  public void applyForLecture(String userId) {
     if (lectureRepository.isAlreadyRegistered(userId)) {
       throw new IllegalArgumentException("이미 신청한 사용자입니다.");
     }
