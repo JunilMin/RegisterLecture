@@ -21,7 +21,7 @@ public class LectureController {
 
   @GetMapping("/status")
   public ResponseEntity<Map<String, Object>> getSeminarStatus(@RequestParam("userId") String userId) {
-    boolean success = LectureService.checkSeminarStatus(userId);
+    boolean success = LectureService.checkLectureStatus(userId);
     Map<String, Object> response = new HashMap<>();
     response.put("success", success);
     response.put("message", success ? "특강 신청이 완료되었습니다." : "특강 신청이 실패하였습니다.");
