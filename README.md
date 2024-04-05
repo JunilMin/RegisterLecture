@@ -61,8 +61,8 @@ endpoint:GET/top
 
 
 ************
+![image](https://github.com/JunilMin/hanghae99_2-/assets/86759172/ef90da1b-4af0-4277-8b77-4fe3bb076ea8)
 
-![image](https://github.com/JunilMin/hanghae99_2-/assets/86759172/82106898-1c95-40c6-b81c-e4cae06bc46e)
 
 
 
