@@ -11,7 +11,7 @@ MILESTONE
 4. API 명세서 작성
 5. 기능 개발
 
-6. 
+
 ************
 
 
@@ -22,6 +22,8 @@ MILESTONE
 잔액충전
 endpoint: POST/charge
 RequestBody
+
+
 잔액조회
 Response
 
@@ -34,10 +36,14 @@ Response
 3. 상품 조회
 endpoint: GET/products
 Response
+
+
 -상품 id / 상품명으로 상품을 조회할 수 있다.
+
+
 -해당 상품의 재고와 가격을 표시한다.
 
-4. 주문 / 결제
+5. 주문 / 결제
 endpoint: POST/orders
 RequestBody
 
